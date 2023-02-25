@@ -7,4 +7,4 @@ jobs:
     steps:
     - name: Checkout
       run: |
-          echo ${github.repository}
+          echo ${{ github.repository }}
