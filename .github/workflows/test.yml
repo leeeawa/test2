@@ -7,4 +7,4 @@ jobs:
     steps:
     - name: Checkout
       run: |
-          sleep 200
+          echo $github.repository
